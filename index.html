@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/dcca0eaf34.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container container--flex">
+          <div class="main-header__container">
+            <h1 class="main-header__title">GameStore</h1>
+            <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
+            <nav class="main-nav" id="main-nav">
+              <ul class="menu">
+                <li class="menu__item"><a href="" class="menu__link">HOME</a></li>
+                <li class="menu__item"><a href="" class="menu__link">ABOUT</a></li>
+                <li class="menu__item"><a href="" class="menu__link">FEATURES</a></li>
+                <li class="menu__item"><a href="" class="menu__link">SHOP</a></li>
+                <li class="menu__item"><a href="" class="menu__link">CONTACT</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="main-header__container">
+            <img src="./img/store1.jpg" alt="">
+          </div>
+          <div class="main-header__container">
+            <a href="" class="main-header__link"><i class="fas fa-user"></i></a>
+            <a href="" class="main-header__btn">My cart <i class="fas fa-shopping-cart"></i></a>
+            <input type="search" class="main-header__input" placeholder="Buscar productos"><i class="fas fa-search"></i>
+          </div>
+        </div>
+      </header>
+      <div class="container-slider">
+        <div class="slider" id="slider">
+          <div class="slider__section">
+            <img src="./img/combo.jpg" alt="" class="slider__img">
+            <div class="slider__content">
+              <h2 class="slider__title">Combos</h2>
+              <p class="slider__txt">Sale 50% off</p>
+              <a href="" class="btn-shop">SHOP NOW</a>
+            </div>
+          </div>
+          <div class="slider__section">
+            <img src="./img/mando1.jpeg" alt="" class="slider__img">
+            <div class="slider__content">
+              <h2 class="slider__title">Mandos</h2>
+              <p class="slider__txt">Sale 30% off</p>
+              <a href="" class="btn-shop">SHOP NOW</a>
+            </div>
+          </div>
+          <div class="slider__section">
+            <img src="./img/teclado1.jpg" alt="" class="slider__img">
+            <div class="slider__content">
+              <h2 class="slider__title">Teclados</h2>
+              <p class="slider__txt">Sale 20% off</p>
+              <a href="" class="btn-shop">SHOP NOW</a>
+            </div>
+          </div>
+          <div class="slider__section">
+            <img src="/img/mouse1.jpg" alt="" class="slider__img">
+            <div class="slider__content">
+              <h2 class="slider__title">Mouses</h2>
+              <p class="slider__txt">Sale 50% off</p>
+              <a href="" class="btn-shop">SHOP NOW</a>
+            </div>
+          </div>
+        </div>
+        <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+        <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+      </div>
+      <main class="main">
+        <div class="container">
+          <h2 class="main-title">Recomendaciones para ti</h2>
+          <section class="container-products">    
+            <div class="product">
+              <img src="./img/torre1.jpg" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Farenheit (Grey)</h3>
+                <span class="product__price">$575.00</span>
+              </div>
+              <i class="product__icon fas fa-cart-plus"></i>
+            </div>
+            <div class="product">
+              <img src="./img/torre2.png" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Opium (Grey)</h3>
+                <span class="product__price">$575.00</span>
+              </div>
+              <i class="product__icon fas fa-cart-plus"></i>
+            </div>
+            <div class="product">
+              <img src="./img/torre3.jpg" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Kenneth Cole</h3>
+                <span class="product__price">$575.00</span>
+              </div>
+              <i class="product__icon fas fa-cart-plus"></i>
+            </div>
+            <div class="product">
+              <img src="./img/torre4.jpg" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Farenheit Oval</h3>
+                <span class="product__price">$325.00</span>
+              </div>           
+              <i class="product__icon fas fa-cart-plus"></i>
+            </div>
+            <div class="product">
+              <img src="./img/teclado2.jpg" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Farenheit (Grey)</h3>
+                <span class="product__price">$575.00</span>
+              </div>
+              <i class="product__icon fas fa-cart-plus"></i>
+            </div>
+            <div class="product">
+              <img src="./img/diademas.jpg" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Farenheit (Grey)</h3>
+                <span class="product__price">$575.00</span>
+              </div>
+              <i class="product__icon fas fa-cart-plus"></i>
+            </div>
+            <div class="product">
+              <img src="./img/mouse2.jpg" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Farenheit (Grey)</h3>
+                <span class="product__price">$575.00</span>
+              </div>
+              <i class="product__icon fas fa-cart-plus"></i>
+            </div>
+            <div class="product">
+              <img src="./img/silla.jpg" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Farenheit (Grey)</h3>
+                <span class="product__price">$575.00</span>
+              </div>
+              <i class="product__icon fas fa-cart-plus"></i>
+            </div>
+          </section>
+          <section class="container-testimonials">
+            <h3 class="section__title">Que dicen nuestros clientes</h3>
+            <img src="/img/avatar.jpg" alt="" class="testimonials__img">
+            <p class="testimonials__name">Juan Pablo Medina Diaz</p>
+            <p class="testimonials__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, perferendis, animi! Numquam quasi similique, fuga sint. Nulla veritatis quia nemo, magni, necessitatibus impedit inventore, provident culpa repellat esse a quo.</p>
+          </section>
+          <div class="container-editor">
+            <div class="editor__item">
+              <img src="/img/setup-gamer.jpg" alt="" class="editor__img">
+              <p class="editor__circle">LOS MEJORES SETUPS</p>
+            </div>
+            <div class="editor__item">
+              <img src="/img/setup-gamer1.jpg" alt="" class="editor__img">
+              <p class="editor__circle">LOS MEJORES SETUPS</p>
+            </div>
+          </div>
+          <section class="container-tips">
+            <div class="tip">
+              <i class="far fa-hand-paper"></i>
+              <h2 class="tip__title">Satisfacción Garantizada</h2>
+              <p class="tip__txt">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit</p>
+              <a href="" class="btn-shop">SHOP NOW</a>
+            </div>
+            <div class="tip">
+              <i class="fas fa-rocket"></i>
+              <h2 class="tip__title">Envio Rapido</h2>
+              <p class="tip__txt">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+              <a href="" class="btn-shop">SHOP NOW</a>
+            </div>
+            <div class="tip">
+              <i class="fas fa-cog"></i>
+              <h2 class="tip__title">Proteccion UV</h2>
+              <p class="tip__txt">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+              <a href="" class="btn-shop">SHOP NOW</a>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer class="main-footer">
+        <div class="footer__section">
+          <h2 class="footer__title">Sobre Nosotros</h2>
+          <p class="footer__txt">Curabitur non nulla sit amet nislinit tempus convallis quis ac lectus. lac inia eget consectetur sed, convallis at tellus. Nulla porttitor accumsana tincidunt.</p>
+        </div>
+        <div class="footer__section">
+          <h2 class="footer__title">Ubicación :</h2>
+          <p class="footer__txt">0926k 4th block building, king Avenue, New York City</p>
+          <h2 class="footer__title">Contacto</h2>
+          <p class="footer__txt">Phone : +121 098 8907 9987</p>
+          <p class="footer__txt">Email : info@example.com</p>
+        </div>
+        <div class="footer__section">
+          <h2 class="footer__title">Enlaces Rápidos</h2>
+          <a href="" class="footer__link">Home</a>
+          <a href="" class="footer__link">About</a>
+          <a href="" class="footer__link">Error</a>
+          <a href="" class="footer__link">Shop</a>
+          <a href="" class="footer__link">Contact Us</a>
+        </div>
+        <div class="footer__section">
+          <h2 class="footer__title">Sign up for your offers</h2>
+          <p class="footer__txt">By subscribing to our mailing list you will always get latest news and updates from us.</p>
+          <input type="email" class="footer__input" placeholder="Enter your email">
+        </div>
+        <p class="copy">© Juan Pablo Medina Diaz</p>
+      </footer>
+
+</body>
+<script src="./js/index.js"></script>
+</html>
